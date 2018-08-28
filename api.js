@@ -33,7 +33,7 @@ function generateSessions(id) {
       });
     }
   });
-  return sessions.sort((a, b) => { if (a.time < b.time) { return - 1 } else { return a.time > b.time; } });
+  return sessions.sort((a, b) => { if (a.time < b.time) { return - 1; } else { return a.time > b.time; } });
 }
 
 function cleanData(movie) {
